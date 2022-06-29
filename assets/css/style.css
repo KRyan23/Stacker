@@ -1,0 +1,62 @@
+/* Importing Orbitron from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body {
+  background-color: darkgray;
+  font-family: 'Orbitron', cursive, sans-serif;
+  text-align: center;
+  color: #fafafa;
+}
+
+
+
+/*----------------------------- Keyframe calls ---------------------------*/
+/* For the big-red-button 'Enter Game' on the front page */
+@keyframes fadein {
+    100% {
+      opacity: 1;
+    }
+  
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* This rule is for the slide in effect for the 'Goal' and 'How' headings */
+  @keyframes slidein {
+    100% {
+      opacity: 1;
+      border-bottom: 1px solid silver;
+      width: 100%;
+      padding: 0 0 0 0;
+    }
+  
+    0% {
+      opacity: 0;
+      border-bottom: 1px solid black;
+      width: 1%;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes flash {
+    100% {
+      color: green;
+    }
+  
+    0% {
+      color: silver;
+    }
+  
+    100% {
+      color: green;
+    }
+  }
+  

@@ -9,3 +9,5 @@ node_modules/
 cloudinary_python.txt
 readme.example
 GitCommands.txt
+
+python -m http.server 8000
